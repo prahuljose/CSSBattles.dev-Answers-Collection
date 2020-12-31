@@ -1,0 +1,41 @@
+<div class='c'></div>
+<div class='b'></div>
+<div class='a'></div>
+
+
+<style>
+  body{
+     background:#0B2429;
+  	  }
+ 
+  .a{
+    width:120;
+    height:120;
+    background:#F3AC3C;
+    position:absolute;
+    top:150;
+    left:80;
+    border-radius: 100% 0 100% 100%;
+  }
+  .b{
+    width:120;
+    height:120;
+    background:#998235;
+    position:absolute;
+    top:90;
+    left:140;
+    border-radius: 100% 0 100% 100%;
+  }
+  .c{
+    width:120;
+    height:120;
+    background:#F3AC3C;
+    position:absolute;
+    top:30;
+    left:200;
+    border-radius: 100% 0 100% 100%;
+    transform: rotate(180deg);
+  }
+</style>
+
+
