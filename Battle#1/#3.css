@@ -1,0 +1,30 @@
+<div class='rec'></div>
+
+<div class='circ1'></div>
+
+
+<style>
+  body{
+     background:#6592CF;
+  }  
+  .rec{
+    background:#243D83;
+    height:150;
+    width:300;
+    position:absolute;
+    top: 75px;
+    left: 50px;
+  }
+
+  .circ1{
+    background:#EEB850;
+    height:50;
+    width:50;
+    border-radius: 100px;
+    position:relative;
+    margin: 125 auto;
+    box-shadow: 0 0 0 50px #243D83, 0 0 0 100px #6592CF;
+  }
+  
+</style>
+

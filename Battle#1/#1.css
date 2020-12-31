@@ -1,0 +1,15 @@
+<div class="square"></div>
+<style>
+  body{
+    background: #5d3a3a;
+  }
+  .square{
+    background: #b5e0ba;
+    width: 200;
+    height: 200;
+    position: absolute;
+     left: 0px;
+    top: 0px;
+   
+  }
+</style>

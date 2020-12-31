@@ -1,0 +1,41 @@
+<div class="square-nw"></div>
+<div class="square-sw"></div>
+<div class="square-ne"></div>
+<div class="square-se"></div>
+<style>
+  body{
+    background: #62374e;
+  }
+  .square-nw{
+    background: #fdc57b;
+    width: 50;
+    height: 50;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+  }
+  .square-sw{
+    background: #fdc57b;
+    width: 50;
+    height: 50;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+  }
+  .square-ne{
+    background: #fdc57b;
+    width: 50;
+    height: 50;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+  }
+  .square-se{
+    background: #fdc57b;
+    width: 50;
+    height: 50;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+  }
+</style>
