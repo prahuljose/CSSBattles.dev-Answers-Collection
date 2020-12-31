@@ -1,0 +1,35 @@
+<div class='rec'></div>
+<div class='square'></div>
+<div class='circle'></div>
+<style>
+  body{
+    background:#222730;
+  }
+  .rec{
+    width:400;
+    height:150;
+    background:#4CAAB3;
+    position:absolute;
+    left:0;
+    top:75;
+  }
+  .square{
+    width:150;
+    height:150;
+    background:#4CAAB3;
+    position:absolute;
+    left:125;
+    top:75;
+    transform:rotate(45deg);
+    box-shadow:0 0 0 50px #222730;
+  }
+  .circle{
+    width:50;
+    height:50;
+    border-radius:100%;
+    background:#393E46;
+    position:relative;
+    margin:auto;
+    top:116;
+  }
+</style> 

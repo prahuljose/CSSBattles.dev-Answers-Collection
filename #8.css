@@ -1,0 +1,103 @@
+
+<div class='rec'></div>
+<div class='g'></div>
+<div class='e'></div>
+<div class='c'></div>
+<div class='a'></div>
+<div class='f'></div>
+<div class='d'></div>
+<div class='b'></div>
+<div class='stick'></div>
+<style>
+  body{
+     background:#6592CF;
+  	  }
+ 
+  .a{
+    width:20;
+    height:110;
+    position:absolute;
+    left:130;
+    top:50;
+    background:#060F55;
+    border-radius:20px 20px 0 0;
+  }
+  .b{
+    width:20;
+    height:110;
+    position:absolute;
+    left:150;
+    top:50;
+    background:#6592CF;
+    border-radius:20px 20px 0 0;
+    transform:rotate(180deg);
+  }
+  .c{
+    width:20;
+    height:110;
+    position:absolute;
+    left:170;
+    top:50;
+    background:#060F55;
+    border-radius:20px 20px 0 0;
+  }
+  .d{
+    width:20;
+    height:110;
+    position:absolute;
+    left:190;
+    top:50;
+    background:#6592CF;
+    border-radius:20px 20px 0 0;
+    transform:rotate(180deg);
+  }
+  .e{
+    width:20;
+    height:110;
+    position:absolute;
+    left:210;
+    top:50;
+    background:#060F55;
+    border-radius:20px 20px 0 0;
+  }
+  .f{
+    width:20;
+    height:110;
+    position:absolute;
+    left:230;
+    top:50;
+    background:#6592CF;
+    border-radius:20px 20px 0 0;
+    transform:rotate(180deg);
+  }
+  .g{
+    width:20;
+    height:110;
+    position:absolute;
+    left:250;
+    top:50;
+    background:#060F55;
+    border-radius:20px 20px 0 0;
+  }
+  .rec{
+    width:140;
+    height:110;
+    position:absolute;
+    left:130;
+    top:140;
+    background:#060F55;
+    border-radius:80px 80px 0 0;
+    transform:rotate(180deg);
+  }
+  .stick{
+    width:20;
+    height:110;
+    position:absolute;
+    left:190;
+    top:220;
+    background:#060F55;
+    border-radius:20px 20px 0 0;
+  }
+</style>
+
+
