@@ -1,0 +1,65 @@
+<div class='sq1'></div>
+<div class='sq2'></div>
+<div class='sq3'></div>
+<div class='sq4'></div>
+<div class='sq5'></div>
+<div class='sq6'></div>
+<style>
+  body{
+    background:#6592CF;
+  }
+  .sq1 {
+    width: 120px;
+    height: 60px;
+    background: #060F55;
+    border-radius:60px 60px 0 0;
+    position:absolute;
+    left:40;
+    top:40;
+  }
+  .sq2 {
+    width: 120px;
+    height: 60px;
+    background: #060F55;
+    border-radius:60px 60px 0 0;
+    position:absolute;
+    left:240;
+    top:40;
+  }
+  .sq3 {
+    width: 120px;
+    height: 60px;
+    background: #060F55;
+    border-radius:0 0 60px 60px;
+    position:absolute;
+    left:140;
+    top:200;
+  }
+  .sq6 {
+    width: 80;
+    height: 80;
+    background: #6592CF;
+    border-radius:100%;
+    position:absolute;
+    left:160;
+    top:160;
+  }
+  .sq5 {
+    width: 80;
+    height: 80;
+    background: #6592CF;
+    border-radius:100%;
+    position:absolute;
+    left:260;
+    top:60;
+  }
+  .sq4 {
+    width: 80;
+    height: 80;
+    background: #6592CF;
+    border-radius:100%;
+    position:absolute;
+    left:60;
+    top:60;
+  }
+</style>

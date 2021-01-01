@@ -1,0 +1,36 @@
+<div class='blob1'></div>
+<div class='blob2'></div>
+<div class='blob3'></div>
+<style>
+  body{
+    background:#F5D6B4;
+  }
+  .blob1{
+    width:180;
+    height:50;
+    background:#D86F45;
+    border-radius:30px 30px 30px 30px;
+    position:absolute;
+    left:120;
+    top:165;
+  }
+  .blob2{
+    width:100;
+    height:100;
+    background:#D86F45;
+    border-radius:100%;
+    position:absolute;
+    left:100;
+    top:115;
+  }
+  .blob3{
+    width:100;
+    height:100;
+    background:#D86F45;
+    border-radius:100%;
+    position:absolute;
+    left:180;
+    top:85;
+  }
+  
+</style>
