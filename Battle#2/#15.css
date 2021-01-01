@@ -1,0 +1,37 @@
+<div class='circ2'></div>
+<div class='circ1'></div>
+<div class='square'></div>
+<style>
+  body{
+    background:#09042A;
+  }
+  .circ1{
+    background:#7B3F61;
+    width:150;
+    height:150;
+    border-radius:100%;
+    position:absolute;
+    top:75;
+    left:75;
+  }
+  .circ2{
+    background:#E78481;
+    width:150;
+    height:150;
+    border-radius:100%;
+    position:absolute;
+    top:75;
+    left:175;
+  }
+  .square{
+    background:#09042A;
+    width:80;
+    height:80;
+    border-radius:95% 0 95% 0;
+    position:absolute;
+    top:110;
+    left:160;
+    transform:rotate(-45deg);
+  }
+  
+</style>

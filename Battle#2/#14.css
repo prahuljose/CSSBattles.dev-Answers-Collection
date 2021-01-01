@@ -1,0 +1,55 @@
+<div class='tri4'></div>
+<div class='tri3'></div>
+<div class='tri2'></div>
+<div class='tri1'></div>
+<style>
+  body{
+    background:#F2F2B6;
+  }
+  .tri1{
+    width:0;
+    height:0;
+    border-left: 75px solid transparent;
+  	border-right: 75px solid transparent;
+   	border-bottom: 0px solid red;
+   	border-top: 130px solid #FF6D00;
+    position:absolute;
+    top:85;
+    left:60;
+  }
+  .tri2{
+    width:0;
+    height:0;
+    border-left: 75px solid transparent;
+  	border-right: 75px solid transparent;
+   	border-bottom: 0px solid red;
+   	border-top: 130px solid #FD4602;
+    position:absolute;
+    top:85;
+    left:80;
+  }
+  .tri3{
+    width:0;
+    height:0;
+    border-left: 75px solid transparent;
+  	border-right: 75px solid transparent;
+   	border-bottom: 0px solid red;
+   	border-top: 130px solid #FD4602;
+    position:absolute;
+    top:85;
+    left:170;
+    transform:rotate(180deg);
+  }
+   .tri4{
+    width:0;
+    height:0;
+    border-left: 75px solid transparent;
+  	border-right: 75px solid transparent;
+   	border-bottom: 0px solid red;
+   	border-top: 130px solid #FF6D00;
+    position:absolute;
+    top:85;
+    left:190;
+    transform:rotate(180deg);
+  }
+</style>

@@ -1,0 +1,38 @@
+<div class='square2'></div>
+<div class='square1'></div>
+<div class='circ1'></div>
+<style>
+  body{
+    background:#0B2429;
+  }
+  .circ1{
+    background:#0B2429;
+    width:50;
+    height:50;
+    border-radius:100%;
+    position:absolute;
+    top:125;
+    left:175;
+    box-shadow:0 0 0 45px #F3AC3C, 0 0 0 65px #0B2429, 0 0 0 75px #998235;
+  }
+  .square1{
+    width:100;
+    height:100;
+    background:#998235;
+    transform:rotate(45deg);
+    position:absolute;
+    top:100;
+    left:80;
+  }
+  .square2{
+    width:100;
+    height:100;
+    background:#998235;
+    transform:rotate(45deg);
+    position:absolute;
+    top:100;
+    left:220;
+  }
+  
+  
+</style>
