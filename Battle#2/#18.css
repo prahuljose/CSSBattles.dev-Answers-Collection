@@ -1,0 +1,83 @@
+
+<div class='one-one'></div>
+<div class='one-two'></div>
+<div class='one-three'></div>
+<div class='two-one'></div>
+<div class='two-two'></div>
+<div class='two-three'></div>
+
+<div class='offset'>
+  <div class='one-one'></div>
+<div class='one-two'></div>
+<div class='one-three'></div>
+<div class='two-one'></div>
+<div class='two-two'></div>
+<div class='two-three'></div>
+</div>
+
+
+<style>
+  body{
+    background:#5C434C;
+  }
+  .offset{
+    position:absolute;
+    left:200;
+    top:0;
+  }
+  
+  .one-one{
+    width:80;
+    height:80;
+    background:#F09462;
+    position:absolute;
+    left:10;
+    top:10;
+    border-radius:100% 0 0 0;
+  }
+  .one-two{
+    width:80;
+    height:80;
+    background:#F5D6B4;
+    position:absolute;
+    left:10;
+    top:110;
+    border-radius:100% 0 0 0;
+  }
+  .one-three{
+    width:80;
+    height:80;
+    background:#F09462;
+    position:absolute;
+    left:10;
+    top:210;
+    border-radius:100% 0 0 0;
+  }
+  .two-three{
+    width:80;
+    height:80;
+    background:#F5D6B4;
+    position:absolute;
+    left:110;
+    top:210;
+    border-radius:100% 0 0 0;
+  }
+  .two-two{
+    width:80;
+    height:80;
+    background:#F09462;
+    position:absolute;
+    left:110;
+    top:110;
+    border-radius:100% 0 0 0;
+  }
+  .two-one{
+    width:80;
+    height:80;
+    background:#F5D6B4;
+    position:absolute;
+    left:110;
+    top:10;
+    border-radius:100% 0 0 0;
+  }
+</style>

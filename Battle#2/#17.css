@@ -1,0 +1,59 @@
+<div class='rec'></div>
+<div class='circ2'></div>
+<div class='circ1'></div>
+<div class='circ4'></div>
+<div class='circ3'></div>
+
+<style>
+  body{
+    background:#09042A;
+  }
+  .circ1{
+    background:#F5BB9C;
+    width:60;
+    height:60;
+    border-radius:100%;
+    position:absolute;
+    top:67;
+    left:170;
+    box-shadow: 0 0 0 10px #09042A;
+  }
+  .circ2{
+    background:#F5BB9C;
+    width:60;
+    height:60;
+    border-radius:100%;
+    position:absolute;
+    top:173;
+    left:170;
+    box-shadow: 0 0 0 10px #09042A;
+  }
+  .circ3{
+    background:#09042A;
+    width:60;
+    height:60;
+    border-radius:100%;
+    position:absolute;
+    top:120;
+    left:110;
+    box-shadow: 0 0 0 10px #E78481;
+  }
+  .circ4{
+    background:#09042A;
+    width:60;
+    height:60;
+    border-radius:100%;
+    position:absolute;
+    top:120;
+    left:230;
+    box-shadow: 0 0 0 10px #E78481;
+  }
+  .rec{
+    width:80;
+    height:55;
+    background:#E78481;
+    position:absolute;
+    top:123;
+    left:150;
+  }
+</style>
