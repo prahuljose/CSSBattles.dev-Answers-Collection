@@ -1,0 +1,93 @@
+
+  <div class='sq1'></div>
+  <div class='c1'></div>
+
+<div class='sq11'></div>
+<div class='c11'></div>
+
+  <div class='sq2'></div>
+  <div class='c2'></div>
+
+<div class='sq22'></div>
+<div class='c22'></div>
+
+<style>
+  body{
+    background:#1A4341;
+  }
+  .sq1{
+    width:50;
+    height:50;
+    background:#F3AC3C;
+    border-radius:0 0 100% 100%;
+    position:absolute;
+    top:160;
+    left:70;
+  }
+  .c1{
+    width:50;
+    height:50;
+    background:#998235;
+    border-radius:100%;
+    position:absolute;
+    top:90;
+    left:70;
+  }
+  .sq11{
+    width:50;
+    height:50;
+    background:#F3AC3C;
+    border-radius:0 0 100% 100%;
+    position:absolute;
+    top:90;
+    left:140;
+    transform:rotate(180deg);
+  }
+  .c11{
+    width:50;
+    height:50;
+    background:#998235;
+    border-radius:100%;
+    position:absolute;
+    top:160;
+    left:140;
+  }
+  .sq2{
+    width:50;
+    height:50;
+    background:#998235;
+    border-radius:0 0 100% 100%;
+    position:absolute;
+    top:90;
+    left:210;
+    transform:rotate(180deg);
+  }
+  .c2{
+    width:50;
+    height:50;
+    background:#F3AC3C;
+    border-radius:100%;
+    position:absolute;
+    top:160;
+    left:210;
+  }
+  .sq22{
+    width:50;
+    height:50;
+    background:#998235;
+    border-radius:0 0 100% 100%;
+    position:absolute;
+    top:160;
+    left:280;    
+  }
+  .c22{
+    width:50;
+    height:50;
+    background:#F3AC3C;
+    border-radius:100%;
+    position:absolute;
+    top:90;
+    left:280;
+  }
+  
+</style>
